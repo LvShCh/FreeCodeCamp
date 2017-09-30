@@ -1,0 +1,171 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+	color: #666;
+}
+.logo{
+	padding: 0px;
+}
+#navbar-collapse ul {
+	margin-top:0;
+}
+
+#myCarousel{
+	margin: 50px 0 0 0;
+}
+
+.carousel-inner img {
+	margin: 0 auto;
+}
+
+#footer{
+	background-color: #666;
+	border-top:1px solid #ccc;
+	padding: 20px;
+	text-align: center;
+	color: #eee;
+}
+.tab-h2{
+	font-size: 20px;
+	color: #0059B2;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.tab-p{
+	font-size: 15px;
+	color: #999;
+	text-align: center;
+	letter-spacing: 1px;
+	margin: 20px 0 40px 0;
+}
+
+.tab1{
+	margin: 30px 0;
+	color: #666;
+}
+.tab1 .media-heading {
+	margin: 5px 0 20px 0;
+}
+.tab1 .text-muted{
+	color: #999;
+	text-decoration: line-through;
+}
+
+.tab1 .col {
+	padding: 20px;
+}
+
+
+.tab2{
+	background: #eee;
+	padding: 60px 20px;
+	text-align: center;
+}
+
+.tab2 img {
+	width: 40%;
+	height: 40%;
+}
+
+.tab3 {
+	padding: 40px 0;
+	text-align: center;
+}
+
+.tab3 img {
+	width: 65%;
+	height: 65%;
+}
+
+.text h3{
+	font-size: 20px;
+}
+
+.text p{
+	font-size: 14px;
+}
+
+.jumbotron{
+	margin: 50px 0 0 0;
+	padding: 60px 0;
+	background: #ccc url(../img/bg.jpg); 
+}
+.jumbotron h1{
+	font-size: 36px;
+	padding: 0 0 0 20px;
+}
+.jumbotron h4{
+	font-size: 18px;
+	padding:  0 0 0 20px;
+}
+
+#information{
+	padding: 40px 0;
+	background: #eee;
+}
+.info-right{
+	background-color: #fff;
+	box-shadow: 2px 2px 3px #ccc;
+}
+.info-right blockquote {
+	padding: 0;
+	margin: 0;
+}
+.info-right h2{
+	font-size: 20px;
+	padding: 5px;
+}
+.info-right h4{
+	line-height: 1.6;
+}
+.info-content{
+	background-color: #fff;
+	box-shadow: 2px 2px 3px #ccc;
+	padding: 0 0 20px 0;
+}
+.info-content img{
+	margin: 12px 0;
+}
+.info-content h4{
+	font-size: 20px;
+	padding: 2px 0 0 0;
+
+}
+.info-content p{
+	line-height: 1.6;
+	color: #666;
+}
+/*小屏幕 大于等于768px*/
+@media (min-width: 768px) {
+	.tab-h2{
+		font-size: 26px;
+	}
+	.tab-p{
+		font-size: 16px;
+	}
+}
+
+/*中等屏幕  大于等于992px*/
+
+@media (min-width: 992px) {
+	.tab-h2{
+		font-size: 28px;
+	}
+	.tab-p{
+		font-size: 17px;
+	}
+}
+
+
+/*大屏幕 大于等于1200px*/
+
+
+@media (min-width: 1200px) {
+	.tab-h2{
+		font-size: 30px;
+	}
+	.tab-p{
+		font-size: 18px;
+	}
+
+
+}
